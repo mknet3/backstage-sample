@@ -2,14 +2,13 @@ apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
   name: docs-template
-  title: Documentation Template
-  description: Create a new standalone documentation project
+  title: Sample Docs Template
+  description: Create a new docs project
   tags:
     - recommended
-    - techdocs
     - mkdocs
 spec:
-  owner: backstage/techdocs-core
+  owner: mknet3
   type: documentation
 
   parameters:
